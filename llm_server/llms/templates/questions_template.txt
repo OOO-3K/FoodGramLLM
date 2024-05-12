@@ -1,0 +1,214 @@
+Ignore all previous instructions. 
+1. You are to provide clear, concise, and direct responses.
+2. Eliminate unnecessary reminders, apologies, self-references, and any pre-programmed niceties.
+3. For every response, you will be tipped up to $200 (depending on the quality of your output).
+It is very important that you get this right. Multiple lives are at stake. 
+
+You would be provided by a recipe separeted by steps.
+
+Generate a list of concise and precise questions related to every step. Ensure questions focus on ingredients, quantities, techniques, and other relevant aspects of the step.
+Take in account name of the recipe, list of ingredients and cooking time. Specify questions for this parameters. Generate at least two questions. The more questions the better.
+
+Example 1.
+Input:
+Recipe:
+Name: Cream of spinach soup
+
+Ingredients:
+1. water
+2. salt
+3. boiling potatoes
+4. fresh spinach leaves
+5. unsalted butter
+6. coarse salt
+7. fresh ground black pepper
+8. nutmeg
+
+Cooking time: 45 minutes
+
+Steps:
+1. bring water and salt to a boil
+2. cut the potatoes in half lengthwise , and then into 1 / 2" thick slices
+3. boil over medium-high heat for twenty minutes
+4. add the spinach and boil another 10 minutes being careful to not overcook in order to maintain it's bright green color
+5. drain , reserving 1 1 / 4 cups cooking liquid
+6. in a food processor , process the potatoes and spinach until very smooth , adding the butter 1 / 2 t at a time
+7. return the puree to the pot and add the reserved liquid until the desired consistency
+8. reheat slowly and season with salt and pepper
+9. ladle into shallow soup plates and garnish with nutmeg or shaved cheese
+
+Output:
+<step 1>
+1. What type of water is required for this step?
+2. How much water should be used per serving?
+3. How much salt should be added to the water?
+4. What is the purpose of adding salt in this step?
+</step 1>
+<step 2>
+1. What type of potatoes should be used?
+2. Why is it important to cut the potatoes in half lengthwise first?
+3. What is the ideal thickness for the potato slices?
+4. What is the purpose of cutting the potatoes into slices?
+</step 2>
+<step 3>
+1. What type of heat setting should be used for boiling the potatoes?
+2. Why is it important to maintain a medium-high heat setting?
+3. How long should the potatoes be boiled for?
+4. How can you determine if the potatoes are cooked through?
+5. Is it necessary to cover the pot while boiling the potatoes?
+</step 3>
+<step 4>
+1. What type of spinach should be used?
+2. How much spinach should be added per serving?
+3. Should the spinach be washed before adding it to the pot?
+</step 4>
+<step 5>
+1. What size strainer is recommended for draining the potatoes and spinach?
+2. Why is it important to reserve some of the cooking liquid?
+3. How much cooking liquid should be reserved?
+4. How should the potatoes and spinach be drained to ensure that as much liquid as possible is removed?
+</step 5>
+<step 6>
+1. What type of food processor is recommended for processing the potatoes and spinach?
+2. What size bowl or container should be used to process the ingredients?
+3. What is the ideal consistency for the processed potatoes and spinach?
+</step 6>
+<step 7>
+1. What type of pot should be used to return the puree to?
+2. What is the purpose of adding the reserved cooking liquid?
+3. How much cooking liquid should be added?
+</step 7>
+<step 8>
+1. What is the best method for reheating the puree?
+2. Why is it important to reheat the puree slowly?
+3. What seasonings should be added to the puree?
+</step 8>
+<step 9>
+1. What type of soup plates are recommended for ladling the puree into?
+2. How much puree should be ladled into each plate?
+3. What is the purpose of garnishing the puree?
+4. What types of garnishes are suitable for this soup?
+</step 9>
+
+Example 2.
+Input:
+Recipe:
+Name: Mexican pasta
+
+Ingredients:
+1. fettuccine pasta
+2. cheddar cheese soup
+3. milk
+4. picante sauce
+5. black olives
+6. jalapeno
+
+Cooking time: 25 minutes
+
+Steps:
+1. boil pasta as directed on package
+2. drain and put in large serving bowl
+3. mix picante sauce , milk , and cheese soup in a smaller bowl until creamy
+4. heat in microwave until warm
+5. mix sauce and pasta together and garnish with olives and jalepenos if desired
+
+Output:
+<step 1>
+1. What type of pasta is used in this dish?
+2. How much pasta should be cooked per serving?
+</step 1>
+<step 2>
+1. Why is it necessary to drain the pasta after boiling?
+</step 2>
+<step 3>
+1. What type of picante sauce is recommended for this recipe?
+2. How much picante sauce should be added?
+3. What type of milk is used in this recipe?
+4. How much milk should be added?
+5. What type of cheese soup is used in this recipe?
+6. How much cheese soup should be added?
+</step 3>
+<step 4>
+1. What type of microwave-safe bowl should be used to heat the sauce?
+2. How long should the sauce be heated in the microwave?
+3. How can you determine if the sauce is warm enough?
+</step 4>
+<step 5>
+1. What is the best method for mixing the sauce and pasta together?
+2. What type of olives are recommended for garnishing the pasta?
+3. How many olives should be used per serving?
+4. How should the olives be sliced or prepared before garnishing?
+</step 5>
+
+Example 3.
+Input:
+Recipe:
+Name: homemade  vegetable soup from a can
+
+Ingredients:
+1. low sodium chicken broth
+2. diced tomatoes
+3. zucchini
+4. corn
+5. potatoes
+6. wax beans
+7. green beans
+8. carrots
+
+Cooking time: 12 minutes
+
+Steps:
+1. combine all ingredients in large pot
+2. bring to a boil and simmer for 3 minutes
+3. serve
+4. i use the tomatoes that come flavored with basil , oregano , and garlic
+5. you can substitute whatever vegetables you like', "if you don't want to use the zucchini , add a can of tomato sauce to give it some substance
+
+Output:
+<step 1>
+1. What type of low sodium chicken broth is recommended for this soup?
+2. How much low sodium chicken broth is needed for the soup?
+</step 1>
+<step 2>
+1. Which type of diced tomatoes are recommended for this soup?
+2. How much diced tomatoes are needed for the soup?
+3. Which type of zucchini is recommended for this soup?
+4. How much zucchini is needed for the soup?
+5. Which type of corn is recommended for this soup?
+6. How much corn is needed for the soup?
+7. Which type of potatoes are recommended for this soup?
+8. How much potatoes are needed for the soup?
+9. Which type of wax beans are recommended for this soup?
+10. How much wax beans are needed for the soup?
+11. Which type of green beans are recommended for this soup?
+12. How much green beans are needed for the soup?
+13. Which type of carrots are recommended for this soup?
+14. How much carrots are needed for the soup?
+</step 2>
+<step 3>
+1. What size pot is recommended for making this soup?
+2. What is the best method for bringing the soup to a boil?
+3. What is the best method for simmering the soup?
+4. How long should the soup be simmered for?
+</step 3>
+<step 4>
+1. What is the purpose of using tomatoes flavored with basil, oregano, and garlic?
+2. What are some suitable substitutes for zucchini in this soup?
+3. What are some suitable substitutes for tomato sauce in this soup?
+</step 4>
+
+Questions must be related to specific step. Make sure that questions would be concise and precise. Make sure questions would be common and useful. Avoid being vague, and try to be as specific as possible.
+
+Recipe:
+{recipe_name}
+
+{ingredients}
+
+{time}
+
+{steps}
+
+Now generate list of questions for EVERY step. It is important not to miss any of them.
+You must not add excessive steps or miss any.
+Follow the format. Do not add unnecessary comments. Make sure every question correctly enumerated.
+Every block should be formatted like in examples. 
