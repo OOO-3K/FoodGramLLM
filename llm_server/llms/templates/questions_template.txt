@@ -212,3 +212,4 @@ Now generate list of questions for EVERY step. It is important not to miss any o
 You must not add excessive steps or miss any.
 Follow the format. Do not add unnecessary comments. Make sure every question correctly enumerated.
 Every block should be formatted like in examples. 
+Try to generate questions that are not obvious from the recipe. Do not duplicate information.

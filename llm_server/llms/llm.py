@@ -30,6 +30,10 @@ class GeminiAPI:
         self.model = genai.GenerativeModel('gemini-pro')
         pass
 
+    def get_chat_api(self, system_instruction):
+        self.chat_model = genai.GenerativeModel('gemini-1.5-pro-latest', system_instruction=system_instruction)
+        return self
+    
     def call(self, prompt: str, image: PIL.Image.Image | None = None, max_tokens: int = 100, temperature: float = 0.75, top_p: float = 0.95, top_k: int = 0):
         whole_prompt = [prompt]
         if image is not None:
@@ -79,6 +83,7 @@ class GeminiAPI:
     def get_recipe_description(self, recipe_prompt: str):
         response = self.call(recipe_prompt)
         return response
+
 def main():
     prompt = example_prompt(80)
 

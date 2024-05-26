@@ -16,10 +16,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from gemini_call.views import gemini_questions_en_index, gemini_description_en_index
+from gemini_call.views import gemini_questions_en_index, gemini_description_en_index, gemini_answers_en_index
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("gemini/questions/en/", gemini_questions_en_index),
     path("gemini/description/en/", gemini_description_en_index),
+    path("gemini/answers/en/", gemini_answers_en_index),
 ]
