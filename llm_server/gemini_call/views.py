@@ -4,6 +4,7 @@ from django.http import HttpResponse, JsonResponse
 from django.apps import apps
 from llms.prompt import make_prompt_for_questions, make_prompt_for_description, make_system_instruction
 import json
+from pprint import pprint
 
 @csrf_exempt
 def gemini_questions_en_index(request):
