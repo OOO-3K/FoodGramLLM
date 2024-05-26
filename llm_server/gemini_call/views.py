@@ -16,8 +16,8 @@ def gemini_questions_en_index(request):
         return HttpResponse("Invalid request: not a POST method", status=402)
 
     recipe_name = request.POST.get('recipe_name')
-    ingredients = request.POST.get('ingredients')
-    steps = request.POST.get('steps')
+    ingredients = json.loads(request.POST.get('ingredients'))
+    steps = json.loads(request.POST.get('steps'))
     time = request.POST.get('time')
 
     try: 
@@ -45,8 +45,8 @@ def gemini_description_en_index(request):
         return HttpResponse("Invalid request: not a POST method", status=402)
 
     recipe_name = request.POST.get('recipe_name')
-    ingredients = request.POST.get('ingredients')
-    steps = request.POST.get('steps')
+    ingredients = json.loads(request.POST.get('ingredients'))
+    steps = json.loads(request.POST.get('steps'))
     time = request.POST.get('time')
 
     try: 
@@ -68,8 +68,8 @@ def gemini_answers_en_index(request):
         return HttpResponse("Invalid request: not a POST method", status=402)
 
     recipe_name = request.POST.get('recipe_name')
-    ingredients = request.POST.get('ingredients')
-    steps = request.POST.get('steps')
+    ingredients = json.loads(request.POST.get('ingredients'))
+    steps = json.loads(request.POST.get('steps'))
     time = request.POST.get('time')
 
     step_num = request.POST.get('step_num')
@@ -87,8 +87,6 @@ def gemini_answers_en_index(request):
         return HttpResponse(f"Invalid request: {e}", status=401)
 
     api = app_config.api.get_chat_api(system_prompt)
-
-    print(type(history))
     
     print(history)
     print('---')
