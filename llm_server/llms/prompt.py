@@ -63,8 +63,33 @@ def example_prompt(idx=0):
     ingredients = ingredients[2:-2].split("', '")
     steps = steps[2:-2].split("', '")
 
-    prompt = make_prompt_for_questions(recipe_name, ingredients, steps, time)
+    prompt = make_prompt_for_description(recipe_name, ingredients, steps, time)
     return prompt
+
+def make_prompt_for_description(recipe_name: str = None, ingredients: List[str] = None, steps: List[str] = None, time: str = None ) -> str:
+    recipe_name = f'Name: {recipe_name}' if recipe_name else ''
+
+    ingredients_str = f'Ingredients:\n{list_to_str(ingredients)}' if ingredients else ''
+
+    if not steps:
+        raise ValueError('Steps must be provided')
+
+    steps_str = f'Steps:\n{list_to_str(steps)}'
+
+    time_str = time_to_str(time)
+
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    file_path = os.path.join(script_dir, 'templates/description_template.txt')
+    template = open(file_path, 'r').read()
+    
+    return template.format(
+        recipe_name=recipe_name,
+        ingredients=ingredients_str,
+        steps=steps_str,
+        time=time_str
+    )
+    
+    pass
 
 def main():
     prompt = example_prompt()

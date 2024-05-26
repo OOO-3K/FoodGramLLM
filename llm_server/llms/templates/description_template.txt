@@ -1,0 +1,103 @@
+You are a professional chef.
+Generate a concise and appealing description for a cooking recipe. Please consider the following guidelines:
+1. Keep the description between 50-100 words.
+2. Use a friendly and approachable tone.
+3. Highlight the unique features and benefits of the dish.
+4. Include sensory details to make the reader's mouth water.
+5. Avoid using overly technical cooking terms or jargon.
+6. Use active voice and present tense to make the description more engaging.
+7. Eliminate unnecessary reminders, apologies, self-references, and any pre-programmed niceties.
+
+Example Recipes:
+Recipe 1:
+Name: Cream of spinach soup
+
+Ingredients:
+1. water
+2. salt
+3. boiling potatoes
+4. fresh spinach leaves
+5. unsalted butter
+6. coarse salt
+7. fresh ground black pepper
+8. nutmeg
+
+Cooking time: 45 minutes
+
+Steps:
+1. bring water and salt to a boil
+2. cut the potatoes in half lengthwise , and then into 1 / 2" thick slices
+3. boil over medium-high heat for twenty minutes
+4. add the spinach and boil another 10 minutes being careful to not overcook in order to maintain it's bright green color
+5. drain , reserving 1 1 / 4 cups cooking liquid
+6. in a food processor , process the potatoes and spinach until very smooth , adding the butter 1 / 2 t at a time
+7. return the puree to the pot and add the reserved liquid until the desired consistency
+8. reheat slowly and season with salt and pepper
+9. ladle into shallow soup plates and garnish with nutmeg or shaved cheese
+
+Recipe 2: 
+Name: Mexican pasta
+
+Ingredients:
+1. fettuccine pasta
+2. cheddar cheese soup
+3. milk
+4. picante sauce
+5. black olives
+6. jalapeno
+
+Cooking time: 25 minutes
+
+Steps:
+1. boil pasta as directed on package
+2. drain and put in large serving bowl
+3. mix picante sauce , milk , and cheese soup in a smaller bowl until creamy
+4. heat in microwave until warm
+5. mix sauce and pasta together and garnish with olives and jalepenos if desired
+
+Recipe 3: 
+Name: homemade  vegetable soup from a can
+
+Ingredients:
+1. low sodium chicken broth
+2. diced tomatoes
+3. zucchini
+4. corn
+5. potatoes
+6. wax beans
+7. green beans
+8. carrots
+
+Cooking time: 12 minutes
+
+Steps:
+1. combine all ingredients in large pot
+2. bring to a boil and simmer for 3 minutes
+3. serve
+4. i use the tomatoes that come flavored with basil , oregano , and garlic
+5. you can substitute whatever vegetables you like', "if you don't want to use the zucchini , add a can of tomato sauce to give it some substance
+
+Example Descriptions:
+Recipe 1: "Indulge in the rich and velvety flavors of our Cream of Spinach Soup, a delightful and nutritious treat that's perfect for any occasion. This recipe combines the simplicity of potatoes and spinach with the elegance of unsalted butter and a hint of nutmeg, resulting in a dish that's both comforting and refined."
+Recipe 2: "Experience the bold flavors of Mexico in this quick and easy pasta dish. Fettuccine pasta is smothered in a creamy sauce made with cheddar cheese soup, milk, and spicy picante sauce, then topped with black olives and jalapenos for an added kick. This Mexican-inspired twist on traditional pasta is sure to become a family favorite."
+Recipe 3: "This quick and easy vegetable soup is a convenient way to enjoy a delicious and nutritious meal. By combining low-sodium chicken broth, diced tomatoes, and a variety of vegetables such as zucchini, corn, potatoes, wax beans, green beans, and carrots, you can create a hearty and flavorful soup in just 12 minutes. The use of flavored diced tomatoes adds an extra layer of taste, and the option to substitute or add different vegetables makes this recipe highly customizable to your preferences."
+
+Follow this tips:
+1. Use a conversational tone to make the description feel more approachable and relatable.
+2. Emphasize the emotional benefits of the dish, such as comfort, excitement, or nourishment.
+3. Highlight the key ingredients and cooking techniques to give the reader a sense of what to expect.
+4. Use vivid and descriptive language to paint a sensory picture in the reader's mind.
+5. Keep the description concise and focused on the main selling points of the dish.
+
+Recipe:
+{recipe_name}
+
+{ingredients}
+
+{time}
+
+{steps}
+
+Generate descriptions for the above recipes, following the guidelines and tips provided. You can also use your own creativity and style to make the descriptions more engaging and appealing.
+Provide ONLY description, remove titles, text formatting and unnecessary other parts.
+Make sure description refers to current recipe.

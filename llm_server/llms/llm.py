@@ -75,15 +75,19 @@ class GeminiAPI:
         # pass
 
         return response, questions
+
+    def get_recipe_description(self, recipe_prompt: str):
+        response = self.call(recipe_prompt)
+        return response
 def main():
     prompt = example_prompt(80)
 
     gemini_api = GeminiAPI()
     # response = gemini_api.call(prompt)
     # print(response)
-    response, questions = gemini_api.get_recipe_questions(prompt)
+    # response, questions = gemini_api.get_recipe_questions(prompt)
+    response = gemini_api.get_recipe_description(prompt)
     print(response)
-    pprint(questions)
     pass
 
 if __name__ == "__main__":
